@@ -1,3 +1,4 @@
 *.txt text eol=lf
 *.png binary
 docs/* export-ignore
+*.bin filter=lfs diff=lfs merge=lfs -text
